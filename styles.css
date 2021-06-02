@@ -1,0 +1,16 @@
+button {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: -1px -1px gray;
+  user-select: none;
+  padding: 1em 1.5em;
+  outline: none;
+  background-color: gray;
+  box-shadow: none;
+  margin: 1em;
+} 
+button:active {
+  top: 1px;
+}
