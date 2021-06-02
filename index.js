@@ -21,14 +21,12 @@ startButton.addEventListener('click', num => {
     num = randomIntegerFromInterval(0, colors.length - 1);
     body.style.backgroundColor = colors[num];
   }, 1000);
-  startButton.classList.toggle('nonactive');
   startButton.setAttribute('disabled', true);
   stopButton.removeAttribute('disabled');
 });
 
 stopButton.addEventListener('click', () => {
   startButton.removeAttribute('disabled');
-  stopButton.classList.toggle('nonactive');
   stopButton.setAttribute('disabled', true);
   body.style.backgroundColor = '';
   clearInterval(setInt);

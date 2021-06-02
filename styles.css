@@ -11,6 +11,4 @@ button {
   box-shadow: none;
   margin: 1em;
 } 
-button:active {
-  top: 1px;
-}
+
